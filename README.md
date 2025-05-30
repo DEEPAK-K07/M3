@@ -130,7 +130,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-<img width="320" alt="image" src="https://github.com/user-attachments/assets/151728e5-c617-4430-84c4-3033024fdefe" />
+![image](https://github.com/user-attachments/assets/51092180-4f11-43cd-995b-8ad1a94cd49c)
+
 
 ## RESULT:
 Thus the program to read n elements as input and print the last element of the array has been executed successfully.
@@ -173,7 +174,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-<img width="383" alt="image" src="https://github.com/user-attachments/assets/126f6bea-2083-433f-8f52-5c3d7b8dbcf5" />
+![image](https://github.com/user-attachments/assets/0d9c4697-41bc-45fa-8f15-dc683246abea)
+
 
 ## RESULT:
 Thus the program to count total number of positive elements in an array has been executed successfully.
@@ -228,7 +230,8 @@ int main() {
 }
 ```
 ## Output:
-<img width="464" alt="image" src="https://github.com/user-attachments/assets/9677d453-b179-4302-9a38-9fc74ca2c6e5" />
+![image](https://github.com/user-attachments/assets/03d36e66-a85c-480c-9e48-293428fbd1c3)
+
 
 ## Result:
 
