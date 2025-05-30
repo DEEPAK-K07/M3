@@ -17,30 +17,33 @@ To write a program to prepare EMI calculator using function without return type 
 ```c
 #include <stdio.h>
 #include <math.h>
-void calculateEMI(float principal, float annualRate, int tenureYears);
+
+void calculateEMI(float p, float R, int T);
 
 int main() {
-    float principal, annualRate;
-    int tenureYears;
-    printf("Enter loan amount (principal): ");
-    scanf("%f", &principal);
-    printf("Enter annual interest rate (in %%): ");
-    scanf("%f", &annualRate);
-    printf("Enter loan tenure (in years): ");
-    scanf("%d", &tenureYears);
-    calculateEMI(principal, annualRate, tenureYears);
+    float p, R;
+    int T;
+    printf("Enter loan amount : ");
+    scanf("%f", &p);
+    printf("Enter interest rate : ");
+    scanf("%f", &R);
+    printf("Enter tenure: ");
+    scanf("%d", &T);
+    calculateEMI(p, R, T);
     return 0;
 }
-void calculateEMI(float principal, float annualRate, int tenureYears) {
-    float monthlyRate = annualRate / (12 * 100); 
-    int tenureMonths = tenureYears * 12;
+
+void calculateEMI(float p, float R, int T) {
+    float monthlyRate = R / (12 * 100); 
+    int tenureMonths = T * 12;
     float emi;
 
-    emi = (principal * monthlyRate * pow(1 + monthlyRate, tenureMonths)) /
+    emi = (p * monthlyRate * pow(1 + monthlyRate, tenureMonths)) /
           (pow(1 + monthlyRate, tenureMonths) - 1);
 
     printf("\nYour EMI is: ₹%.2f per month\n", emi);
 }
+
 ```
 ## OUTPUT:
 <img width="373" alt="image" src="https://github.com/user-attachments/assets/770ec052-d8a0-4b8d-adcf-c15ccd9003a0" />
