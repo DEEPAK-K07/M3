@@ -46,7 +46,8 @@ void calculateEMI(float p, float R, int T) {
 
 ```
 ## OUTPUT:
-<img width="373" alt="image" src="https://github.com/user-attachments/assets/770ec052-d8a0-4b8d-adcf-c15ccd9003a0" />
+![image](https://github.com/user-attachments/assets/1abf92bb-f080-4bd8-972e-df32f23f3a99)
+
 
 ## RESULT:
 
